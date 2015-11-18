@@ -7,6 +7,7 @@ The purpose of this application is to learn the design and application lifecycle
   <li>JavaScript Functions/Modules</li>
   <li>A UI built using KendoUI</li>
   <li>Utilizing a Backend that is a database (SQL) for the pictures.</li>
+  <li>Cordova for the native features</li>
 </ul>
 
 Mobile applications are built using their respective platform's language (Android->Java, iOS->Objective-C/Swift, Windows->Visual Studio/C#). When a problem arises that is needing a mobile solution, your first have to decide and plan the workflow. 
