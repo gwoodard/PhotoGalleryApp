@@ -4,6 +4,7 @@
 <head>
     <title></title>
     <meta charset="utf-8">
+    //All the JS Scripts and Frameworks are called here
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
     <script src="cordova.js"></script>
@@ -13,10 +14,14 @@
 </head>
 
 <body>
+    //Sets the main view of the application along with the Title that is displayed on the header.
     <div data-role="view" data-model="listview" data-title="My Hot Diggidy Photos">
         <header data-role="header">
+            //Declares the navbar features in the application header
             <div data-role="navbar">
                 <span data-role="view-title"></span>
+                //Adds a button to the navbar. The features are the button is aligned to the right and
+                //the data-bind is the click function that calls the addImage method.
                 <button data-role="button" data-align="right" data-bind="click: addImage">Add</button>
             </div>
         </header>
